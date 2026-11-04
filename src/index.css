@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body, #root { height: 100%; }
+body { @apply bg-mist-200 text-mist-900 font-sans antialiased dark:bg-[#161616] dark:text-zinc-100; }
+
+* { scrollbar-width: thin; scrollbar-color: #abc3d7 transparent; }
+.dark * { scrollbar-color: #3a3a3a transparent; }
+
+.token-hover { background: rgba(95, 134, 168, 0.32); border-radius: 2px; }
+.dark .token-hover { background: rgba(102, 217, 239, 0.28); }
